@@ -1,27 +1,38 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Qhome from '../views/Qhome.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    name: 'qhome',
+    component: Qhome
+  },
+  {
+    path: '/qcontact',
+    name: 'qcontact',
+    // route level code-splitting
+    // this generates a separate chunk (qcontact.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "qcontact" */ '../views/Qcontact.vue')
+  },
+  {
+    path: '/qcart',
+    name: 'qcart',
+    component: () => import(/* webpackChunkName: "qcart" */ '../views/Qcart.vue')
+  },
+  {
+    path: '/qsearch',
+    name: 'qsearch',
+    component: () => import(/* webpackChunkName: "qsearch" */ '../views/Qsearch.vue')
   }
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // }
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  linkActiveClass: 'mui-active'
 })
 
 export default router

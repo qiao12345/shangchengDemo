@@ -1,12 +1,12 @@
 <template>
-  <div class="header-container">
-    <mt-header fixed title="qiao-Vue项目"></mt-header>
+  <div class="qcontact">
+    <h1>会员</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'qheader'
+  name: 'qcontact'
 }
 </script>
 
