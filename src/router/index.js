@@ -6,7 +6,10 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/', redirect: '/qhome'
+  },
+  {
+    path: '/qhome',
     name: 'qhome',
     component: Qhome
   },

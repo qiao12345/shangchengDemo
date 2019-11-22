@@ -6,12 +6,13 @@ import './lib/mui/css/icons-extra.css'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import VueResource from 'vue-resource'
 
 Vue.config.productionTip = false
 Vue.component(Header.name, Header)
 Vue.component(Swipe.name, Swipe)
 Vue.component(SwipeItem.name, SwipeItem)
-
+Vue.use(VueResource)
 new Vue({
   router,
   store,
