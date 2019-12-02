@@ -30,6 +30,14 @@ const routes = [
     path: '/qsearch',
     name: 'qsearch',
     component: () => import(/* webpackChunkName: "qsearch" */ '../views/Qsearch.vue')
+  },
+  {
+    path: '/qhome/newslist',
+    component: () => import(/* webpackChunkName: "newslist" */ '../components/NewsList.vue')
+  },
+  {
+    path: '/qhome/newlistinfo/:id',
+    component: () => import(/* webpackChunkName: "newlistinfo" */ '../components/NewsListInfo.vue')
   }
 ]
 
