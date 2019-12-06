@@ -29,6 +29,9 @@
 </template>
 
 <style lang="scss" scoped>
+.mint-header{
+	z-index: 999;
+}
 .app-container{
   padding: 40px 0px 50px 0px;
   overflow-x: hidden;

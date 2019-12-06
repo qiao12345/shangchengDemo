@@ -38,6 +38,10 @@ const routes = [
   {
     path: '/qhome/newlistinfo/:id',
     component: () => import(/* webpackChunkName: "newlistinfo" */ '../components/NewsListInfo.vue')
+  },
+  {
+    path: '/qhome/photolist',
+    component: () => import(/* webpackChunkName: "photolist" */ '../components/PhotoList.vue')
   }
 ]
 
