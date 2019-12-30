@@ -1,7 +1,12 @@
 <template>
   <div id="app" class="app-container">
 	<!-- 头部 -->
-    <mt-header fixed title="qiao-Vue项目"></mt-header>
+	<mt-header fixed title="qiao-Vue项目">
+		<span slot="left">
+			<mt-button icon="back" @click="goback" v-show="backtxt">返回</mt-button>
+		</span>
+		<mt-button icon="more" slot="right"></mt-button>
+	</mt-header>
 	<!-- 显示区域 -->
 	<transition>
 		<router-view/>
@@ -17,7 +22,7 @@
 			<span class="mui-tab-label">会员</span>
 		</router-link>
 		<router-link class="mui-tab-item" to='/qcart'>
-			<span class="mui-icon mui-icon-extra mui-icon-extra-cart"><span class="mui-badge">9</span></span>
+			<span class="mui-icon mui-icon-extra mui-icon-extra-cart"><span class="mui-badge">{{ msgaa }}</span></span>
 			<span class="mui-tab-label">购物车</span>
 		</router-link>
 		<router-link class="mui-tab-item" to='/qsearch'>
@@ -27,6 +32,36 @@
 	</nav>
   </div>
 </template>
+
+<script>
+import store from '@/store'
+export default {
+  store,
+  data () {
+    return {
+      msgaa: this.$store.state.count,
+      backtxt: false
+    }
+  },
+  created () {
+    this.backtxt = this.$route.path !== '/qhome'
+  },
+  methods: {
+    goback () {
+      this.$router.go(-1)
+    }
+  },
+  watch: {
+    '$route.path': function (newval) {
+      if (newval === '/qhome') {
+        this.backtxt = false
+      } else {
+        this.backtxt = true
+      }
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .mint-header{

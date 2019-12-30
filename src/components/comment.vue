@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 .commentSty{
   h3{
-    font-size: 16px;
+    font-size: 15px;
   }
   textarea{
       font-size: 14px;

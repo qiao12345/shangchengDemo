@@ -42,6 +42,28 @@ const routes = [
   {
     path: '/qhome/photolist',
     component: () => import(/* webpackChunkName: "photolist" */ '../components/PhotoList.vue')
+  },
+  {
+    path: '/qhome/photolistinfo/:id',
+    component: () => import(/* webpackChunkName: "photolistinfo" */ '../components/PhotoListInfo.vue')
+  },
+  {
+    path: '/qhome/shoppinglist',
+    component: () => import(/* webpackChunkName: "shoppinglist" */ '../components/ShoppingList.vue')
+  },
+  {
+    path: '/qhome/shoppinglistinfo/:id',
+    component: () => import(/* webpackChunkName: "shoppinglistinfo" */ '../components/ShoppingListInfo.vue')
+  },
+  {
+    path: '/qhome/shoppinglistinfo/goodsdesc/:id',
+    name: 'goodsdesc',
+    component: () => import(/* webpackChunkName: "goodsdesc" */ '../components/GoodsDesc.vue')
+  },
+  {
+    path: '/qhome/shoppinglistinfo/goodscomment/:id',
+    name: 'goodscomment',
+    component: () => import(/* webpackChunkName: "goodscomment" */ '../components/GoodsComment.vue')
   }
 ]
 

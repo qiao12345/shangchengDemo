@@ -1,10 +1,7 @@
 <template>
   <div class="qhome">
-	<mt-swipe :auto="4000">
-		<mt-swipe-item v-for="item in luobotuList" :key="item.url">
-			<img :src="item.img" alt=''>
-		</mt-swipe-item>
-	</mt-swipe>
+	<!-- 轮播图组件 -->
+	<lunbotu :luobotuList = "luobotuList"></lunbotu>
 	<!-- 九宫格区域 -->
 	<ul class="mui-table-view mui-grid-view mui-grid-9">
 		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
@@ -20,10 +17,10 @@
 			</router-link>
 		</li>
 		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-			<a href="#">
+			<router-link to="/qhome/shoppinglist">
 				<img src="../assets/menu3.png" alt="">
 				<div class="mui-media-body">商品购买</div>
-			</a>
+			</router-link>
 		</li>
 		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 			<a href="#">
@@ -49,6 +46,7 @@
 
 <script>
 // import { Toast } from 'mint-ui'
+import lunbotu from '../components/LunBoTu.vue'
 export default {
   name: 'qhome',
   data () {
@@ -59,6 +57,9 @@ export default {
         { url: 'www.runoob.com', img: '../assets/003.jpg' }
       ]
     }
+  },
+  components: {
+    lunbotu
   },
   created () {
     // this.getLuobotu()
@@ -79,24 +80,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mint-swipe{
-	height: 200px;
-	.mint-swipe-item{
-		&:nth-child(1){
-			background-image: url(../assets/001.png)
-		}
-		&:nth-child(2){
-			background-image: url(../assets/002.jpg)
-		}
-		&:nth-child(3){
-			background-image: url(../assets/003.jpg)
-		}
-        img{
-			width: 100%;
-			height: 100%;
-		}
-	}
-}
+
 .mui-grid-view.mui-grid-9{
 	background: #ffffff;
 	border: none;

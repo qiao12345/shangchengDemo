@@ -20,103 +20,121 @@
         <img :src='item.url_add'>
       </li> -->
       <li>
-        <img src="../assets/jj1.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/1">
+          <img src="../assets/jj1.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj2.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/2">
+          <img src="../assets/jj2.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj3.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/3">
+          <img src="../assets/jj3.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj4.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/4">
+          <img src="../assets/jj4.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj5.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/5">
+          <img src="../assets/jj5.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj6.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/6">
+          <img src="../assets/jj6.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj7.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/7">
+          <img src="../assets/jj7.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj8.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/8">
+          <img src="../assets/jj8.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
       <li>
-        <img src="../assets/jj9.jpg" alt="">
-        <div class="info-content">
-          <div class="info-title">
-            现代简约 明亮的背景
+        <router-link to="/qhome/photolistinfo/9">
+          <img src="../assets/jj9.jpg" alt="">
+          <div class="info-content">
+            <div class="info-title">
+              现代简约 明亮的背景
+            </div>
+            <div class="info-body">
+              不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
+            </div>
           </div>
-          <div class="info-body">
-            不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。不要简朴，不要素雅简朴卧室。
-          </div>
-        </div>
+        </router-link>
       </li>
     </ul>
   </div>
@@ -191,7 +209,7 @@ export default {
         text-align: left;
         position: absolute;
         bottom: 0;
-        background-color: rgba($color: #000000, $alpha: 0.5);
+        background-color: rgba($color: #000000, $alpha: 0.4);
         max-height: 84px;
         .info-title{
           font-size: 13px;

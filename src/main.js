@@ -3,6 +3,7 @@ import { Header, Swipe, SwipeItem, Button, Lazyload } from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
+import VuePreview from 'vue-preview'
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -13,6 +14,7 @@ Vue.component(Header.name, Header)
 Vue.component(Swipe.name, Swipe)
 Vue.component(SwipeItem.name, SwipeItem)
 Vue.component(Button.name, Button)
+Vue.use(VuePreview)
 Vue.use(VueResource)
 Vue.use(Lazyload)
 new Vue({
